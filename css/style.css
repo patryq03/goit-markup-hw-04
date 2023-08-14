@@ -364,6 +364,7 @@ nav.logo{
     gap: 24px;
     padding-inline: 100px;
     padding-block: 24px;
+    
 }
 .points{
     justify-content: space-between;
@@ -397,23 +398,8 @@ nav.logo{
     flex-direction: column;
     align-items: flex-start;
 }
-.social-media-icon{
-    text-align: -webkit-match-parent;
 
-}
-.circle>svg {
-    width: 16px;
-    height: 16px;
-  }
-.circle>a{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--iris-color);
-} 
+
 .social-media {
     margin-left: 120px;
      
@@ -427,27 +413,10 @@ nav.logo{
   margin-bottom: 16px;
   
 }
-.circle>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: var(--white);
-    
-  }
-  .circle{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  }
-  .circle>a:hover{
-    background-color: var(--green);
-  }
+
+  
+
+ 
 
   footer>.logo {
     display: inline-block;
@@ -464,10 +433,10 @@ nav.logo{
     width: 168px;
     height: 88px;
     flex-shrink: 0;
+    fill: var(--light-slate);
   }
 .customer:hover, .customer:focus{
     border: 1px solid var(--ocean-color);
-    fill-opacity: var(--ocean-color);
     fill: var(--ocean-color);
 }
 .down{
@@ -483,3 +452,33 @@ nav.logo{
     border: 1px solid var(--light-slate);
     border-radius: 4px;
   }
+ .icon{
+    width: 16px;
+        height: 16px;
+        margin: 12px 12px;
+ }
+ .circle-footer>a:hover{
+    background-color: var(--green);
+  }
+  .circle-footer, .circle{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-text-in-web-and-btn);
+  }
+  .circle-footer>svg {
+    width: 16px;
+    height: 16px;
+  }
+.circle-footer>a, .circle>a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--iris-color);
+} 
