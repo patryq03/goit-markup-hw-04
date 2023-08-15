@@ -506,7 +506,7 @@ path.cost:hover{
    
     fill: var(--ocean-color);
 }
-.customer{
-    fill: var(--light-slate);
+.customer>a>svg:hover{
+    fill: var(--ocean-color);
 }
 
