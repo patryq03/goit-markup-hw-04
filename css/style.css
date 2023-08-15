@@ -124,7 +124,7 @@ button:hover, button:focus{
     gap: 24px;
     text-align: center;
     padding-bottom: 24px;
-    padding-top: -24px;
+    margin: -24px;
 }
 li{
     color: var(--slate-color); 
@@ -340,6 +340,7 @@ button.service{
 .photos{
     display: flex;
     width: 360px;
+    height: 420px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
@@ -434,6 +435,7 @@ nav.logo{
     height: 88px;
     flex-shrink: 0;
     fill: var(--light-slate);
+    fill: #8E8F99;
   }
 .customer:hover, .customer:focus{
     border: 1px solid var(--ocean-color);
@@ -453,9 +455,9 @@ nav.logo{
     border-radius: 4px;
   }
  .icon{
-    width: 16px;
+        width: 16px;
         height: 16px;
-        margin: 12px 12px;
+        
  }
  .circle-footer>a:hover{
     background-color: var(--green);
@@ -473,6 +475,9 @@ nav.logo{
     width: 16px;
     height: 16px;
   }
+.circle{
+    padding-bottom: 32px;
+}
 .circle-footer>a, .circle>a{ 
     display: flex;
     justify-content: center;
@@ -482,3 +487,23 @@ nav.logo{
     border-radius: 50%;
     background-color: var(--iris-color);
 } 
+.cost{
+    fill: var(--light-slate);
+}
+.cost:hover{
+    fill: var(--ocean-color);
+}
+.custom.path:hover{
+    fill: var(--ocean-color);
+    
+}
+path.cost{
+    fill: var(--light-slate);
+}
+path.cost:hover{
+    fill: var(--ocean-color);
+}
+.customer:hover>{
+   
+    fill: var(--ocean-color);
+}
