@@ -297,8 +297,8 @@ button.service{
     gap: 10px;
     border-radius: 4px;
     background-color: var(--iris, #4D5AE5);
-    
     margin-bottom: 68px;
+    border: 0;
 }
 .service:hover, .service:focus{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -323,7 +323,6 @@ button.service{
     align-items: flex-start;
     gap: 8px;
     border-radius: 4px;
-    
     flex-basis: calc((1158px - 48px) / 3);
 }
 .buttons_list_button:hover, .buttons_list_button:focus{
@@ -507,3 +506,7 @@ path.cost:hover{
    
     fill: var(--ocean-color);
 }
+.customer{
+    fill: var(--light-slate);
+}
+
