@@ -439,7 +439,7 @@ nav.logo{
     padding: 16px 32px;
   }
 
-.customers-icon:hover, .cus-icon:focus {
+.customers-icon:hover, .customers-icon:focus {
     fill: var(--ocean-color);
     border-color: var(--ocean-color);
   }
