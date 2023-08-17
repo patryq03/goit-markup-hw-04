@@ -435,15 +435,15 @@ nav.logo{
     width: 168px;
     height: 88px;
     flex-shrink: 0;
-    fill: red;
-    border: 1px solid lightgray;
+    fill: var(--light-slate);
+    border: 1px solid var(--light-slate);
     border-radius: 4px;
     padding: 16px 32px;
   }
 
   .customers-icon:hover, .cus-icon:focus {
-    fill: blue;
-    border-color: blue;
+    fill: var(--ocean-color);
+    border-color: var(--ocean-color);
   }
 
 .down{
