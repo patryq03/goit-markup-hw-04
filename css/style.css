@@ -21,6 +21,13 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.third_section{
+    margin-top: -120px;
+}
+article{
+    text-align: center;
+    gap: 8px;
+}
 nav{
     float: left;
 }
@@ -229,7 +236,14 @@ li{
     padding-bottom: 100px;
 }
 .link{  
-    text-decoration: none; 
+    text-decoration: none;
+    
+}
+.photos>.link{
+    color: var(--slate-color);
+}
+.photos>.link:hover, .photos>.link:focus{
+    color: var(--slate-color);
 }
 address{
     font-style: normal;
@@ -339,14 +353,13 @@ button.service{
 .photos{
     display: flex;
     width: 360px;
-    height: 420px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
     border: 1px solid var(--cornflower-color);
-    margin-top: 48px;
+    margin-top: 48px;   
 }
 nav.logo{
     padding-block: 25.5px;
@@ -357,7 +370,7 @@ nav.logo{
 }
 .svg{
     width: 264px;
-    height: 112px;
+
     flex-shrink: 0;
     border-radius: 4px;
     background-color: var(--cloud-color);
@@ -467,14 +480,26 @@ nav.logo{
  .circle-footer>a:hover{
     background-color: var(--green);
   }
-  .circle-footer, .circle{
+  .circle-footer{
     display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--color-text-in-web-and-btn);
+  background-color: var(--iris-color);
+  }
+  .circle{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color); 
+  }
+  .circle>a:hover{
+    background-color: var(--ocean-color);
   }
   .circle-footer>svg {
     width: 16px;
