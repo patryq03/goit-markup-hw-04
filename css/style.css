@@ -407,6 +407,7 @@ nav.logo{
     justify-content: center;
     gap: 24px;
     list-style: none;
+    padding-bottom: 32px;
 }
 .social-media{
     background-color: var(--navyblue-color);
@@ -498,7 +499,7 @@ nav.logo{
     height: 40px;
     border-radius: 50%;
     background-color: var(--iris-color);
-    padding-bottom: 32px;
+    
   }
   .circle:hover, .circle:focus{
     background-color: var(--ocean-color);
