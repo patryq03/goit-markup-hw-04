@@ -27,6 +27,7 @@
 article{
     text-align: center;
     gap: 8px;
+    padding-bottom: 32px;
 }
 nav{
     float: left;
@@ -491,15 +492,16 @@ nav.logo{
   }
   .circle{
     display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--iris-color); 
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--iris-color);
   }
-  .circle>a:hover{
+  .circle:hover, .circle:focus{
     background-color: var(--ocean-color);
+    cursor: pointer;
   }
   .circle-footer>svg {
     width: 16px;
@@ -508,7 +510,7 @@ nav.logo{
 .circle{
     padding-bottom: 32px;
 }
-.circle-footer>a, .circle>a{ 
+.circle-footer>a{ 
     display: flex;
     justify-content: center;
     align-items: center;
