@@ -407,7 +407,6 @@ nav.logo{
     justify-content: center;
     gap: 24px;
     list-style: none;
-    padding-bottom: 32px;
 }
 .social-media{
     background-color: var(--navyblue-color);
