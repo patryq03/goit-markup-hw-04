@@ -55,8 +55,11 @@ footer{
 }
 .photos.bigger_p, .photos.smaller_p{
     padding-inline: 16px;
+    gap: 8px;
 }
-
+.person>img{
+    height: 260px;
+}
 .down.logo{
     padding-bottom: 17.5px;
 }
@@ -192,15 +195,24 @@ li{
     padding-top: 32px;
     padding-bottom: 8px;
     padding-inline: 16px;
+    
    
+}
+.photos .bigger_p{
+    border-inline: 1px solid var(--cornflower-color);
 }
 .smaller_p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
-    padding-bottom: 32px;  
+    padding-bottom: 8px;  
     padding-inline: 16px;
+
 }   
+.photos .smaller_p{
+    border-inline: 1px solid var(--cornflower-color);
+    border-bottom: 1px solid var(--cornflower-color);
+}
 .person>.bigger_p{
     text-align: center;
 }
@@ -273,12 +285,13 @@ address{
     color: var(--navyblue-color);
     padding-bottom: 72px;
 }
-.example-headers-third>{
+.example-headers-third{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue-color);
+    height: 260px;
 }
 
 .list{
@@ -359,7 +372,6 @@ button.service{
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-    border: 1px solid var(--cornflower-color);
     margin-top: 48px;   
 }
 nav.logo{
