@@ -56,6 +56,7 @@ footer{
 .photos.bigger_p, .photos.smaller_p{
     padding-inline: 16px;
     gap: 8px;
+
 }
 .person>img{
     height: 260px;
@@ -212,6 +213,7 @@ li{
 .photos .smaller_p{
     border-inline: 1px solid var(--cornflower-color);
     border-bottom: 1px solid var(--cornflower-color);
+    padding-bottom: 32px;
 }
 .person>.bigger_p{
     text-align: center;
@@ -219,7 +221,11 @@ li{
 .person>.smaller_p{
     text-align: center;
 }
-
+.project-card-caption {
+    padding: 32px 16px 32px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
 .lia{
     font-weight: 500;
     color: var(--navyblue-color);
@@ -373,6 +379,9 @@ button.service{
     gap: 32px;
     flex-shrink: 0;
     margin-top: 48px;   
+}
+.jpg>img{
+    margin-bottom: -5px;
 }
 nav.logo{
     padding-block: 25.5px;
